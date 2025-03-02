@@ -27,7 +27,8 @@ Click on any lecture below to watch the video on **YouTube** 🎬
 
 [![Lecture 2](https://img.shields.io/badge/-Lecture%202-red?style=for-the-badge&logo=youtube)](https://youtu.be/P_Qwmt9bM-Q)  Variables, Statements, Operators
 
-[![Lecture 3](https://img.shields.io/badge/-Lecture%203-red?style=for-the-badge&logo=youtube)](https://youtu.be/EhkcHZej01w)  Releases on 01/03/2025  
+[![Lecture 3](https://img.shields.io/badge/-Lecture%203-red?style=for-the-badge&logo=youtube)](https://youtu.be/EhkcHZej01w)  Loops Concept
+
 [![Lecture 4](https://img.shields.io/badge/-Lecture%204-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_4)  Releases on 05/03/2025  
 [![Lecture 5](https://img.shields.io/badge/-Lecture%205-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_5)  Releases on 08/03/2025  
 

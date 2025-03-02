@@ -1,0 +1,59 @@
+									Shell Scripting for DevOps Engineers by KASTRO
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+													LECTURE 03
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"Welcome to Shell Scripting Lectures"
+if you want to print a message for multiple times, we will use 'Loop' concept
+
+What is a loop?
+Loops are used to execute the same statement multiple times
+Used to repeat a set of commands until a condition is satisfied
+
+Types of Loops;
+1. Range based loop - if you already know how many times you want to execute a statement then we will use 'Range based loop'
+						Ex: for
+2. Conditional based loop - if you dont know the range and you want to execute a statement until the condition the is true then we will use 'Conditional based loop'
+						Ex: while
+
+FOR Loop
+------------------
+Syntax
+
+for (( initialization; condition; modification ))
+	do
+		<Statements>
+done
+
+WHILE Loop
+---------------------------
+while loop is used to execute until the condition is true
+
+Syntax
+
+while [ condition ]
+do
+	<Statements>
+done
+
+
+Assignment:
+Task 1: For loop: Create a directory and Write a shell script file to print all the .py, .java and .txt files available in custom directory path
+Task 2: For loop: Write a shell file to Print Even Numbers from 2 to 20
+Task 3: While loop: Write a shell file to Monitor CPU Usage in Real-Time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

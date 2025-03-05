@@ -1,0 +1,89 @@
+									Shell Scripting for DevOps Engineers by KASTRO
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+													LECTURE 04
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Conditional Statements
+CS allow you to execute specific blocks of code based on whether the condition is true/false
+CS are used to execute commands based on a condition
+To implement CS we will use "if-elif-else"
+
+Types of CS;
+1. if statement: Executes a block of code if a condition is true
+2. if-else statement: Executes one block of code if the condition is true, and another block of code if its false
+3. if-elif-else statement: Checks multiple conditions and executes the corresponding block of code
+
+Syntax:
+if [ condition ]; then
+	# if condition is true then print the message
+elif [ condition ]; then
+	# if condition is true then print the message
+else
+	# print this message
+
+if-else SCRIPT
+Shell Script to check whether a file is available or not
+
+
+2. Command Line Arguments
+CLA are inputs passed to script when it is being executed
+CLA allows us to make our scripts dynamic and reusable
+CLA can be accessed using special vairables
+
+How to use CLA?
+$0 - represents the name of the script
+Ex: echo $0 #Print the script name
+
+$1, $2, $3, $4,..... - These numbers represent the first, second, third, fourth, etc. CLA passed to script
+$1 - Prints the first argument
+$2 - Prints the second argument
+$3 - Prints the third argument
+
+$# - prints total number of arguments - it is going to exclude the script name
+
+$@ - this variable holds all the CLA passed to the script, treating each argument as a separate quoted string
+
+$* - but it treats all arguments as a single string with spaces separating them
+
+$@ Vs $*
+$@ treats each argument as a separate entity, keeping them distinct even if there are spaces in the arguments
+$* treats all arguments as a single string, with spaces b/w them, which can lead to loss of distinction if arguments contains spaces
+
+
+3. Functions
+Functions are reusable blocks of code that performs a specific task.
+They help in organizing the code, avoiding the repetition, and making script modular
+
+Syntax:
+function_name () {
+	#CodeToExecute
+}
+
+Calling a function:
+function_name
+
+
+Summary of topics
+Conditional Statements - Number checker
+Command Line Arguments - Greet user using command line argument
+Functions - Calulator with functions - define the functions for addition, subtraction and multiplication
+
+Assignment
+1. Conditional Statements
+Write a script that:
+Takes a number as input.
+Checks if the number is even or odd.
+Displays the result.
+
+2. Command Line Arguments
+Write a script that:
+Takes three numbers as command line arguments.
+Displays the largest number among them.
+
+3. Functions
+Write a script that:
+Defines a function to calculate the factorial of a number.
+Takes a number as input and displays its factorial.
+
+
+
+

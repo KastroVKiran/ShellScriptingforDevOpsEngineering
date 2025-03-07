@@ -1,0 +1,94 @@
+									Shell Scripting for DevOps Engineers by KASTRO
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+													LECTURE 05
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scheduling
+-----------------
+It is crucial concept in automation, especially for DevOps Engineer
+It allows scripts to run at predefined times without any manual intervention
+
+Types of scheduling in Linux
+------------------------------------
+1. One-time execution - "at" command
+2. Recurring execution - cron jobs
+
+One-time execution
+-------------------------------
+"at" command
+
+sudo apt install at ---- Debian based (Ubuntu)
+sudo yum install at --- RHEL based (Amazon Linux, CentOS)
+
+
+Recurring execution
+---------------------------------
+The cron daemon is used to execute scheduled tasks at fixed intervals
+CRON is an utility in Linux OS to schedule jobs execution
+
+	- Delete tmp files
+	- Take the backup files
+	- System health checks
+
+cron expression/format
+* * * * * -----> every minute the job will get executed
+
+First * ----> Minute (0-59)
+Second * -----> Hour (0-23)
+Third * ----> Day of a month (1-31)
+Fourth * ----> Month (1-12)
+Fifth * ----> Day of a week (0-7)
+
+10 * * * * 
+
+Sample CRON Schedules
+------------------------------------
+https://crontab.guru/
+
+Where to configure the cronjob in Linux?
+-------------------------------------------------
+"crontab file" is used to configure cronjobs in Linux OS.
+It will be available for every Linux VM
+
+sudo yum install cronie -y
+
+sudo systemctl start crond
+sudo systemctl enable crond
+
+sudo systemctl status crond
+
+
+Practice - Cron Jobs Examples
+-------------------------------------------
+Below are some cron job examples that show how to schedule a task to run on different time periods.
+
+Run a command at 15:00 on every day from Monday through Friday:
+0 15 * * 1-5 command
+Ex: 0 15 * * 1-5 pwd
+
+Run a script every 5 minutes and redirected the standard output to dev null, only the standard error will be sent to the specified e-mail address:
+MAILTO=email@example.com
+*/5 * * * * /path/to/script.sh > /dev/null
+
+Run two commands every Monday at 3 PM (use the operator && between the commands):
+0 15 * * Mon command1 && command2
+Ex: 0 15 * * Mon pwd && whoami
+
+Run a PHP script every 2 minutes and write the output to a file :
+*/2 * * * * /usr/bin/php /path/to/script.php >> /var/log/script.log
+
+Run a script every day, every hour, on the hour, from 8 AM through 4 PM:
+00 08-16 * * * /path/to/script.sh
+
+Run a script on the first Monday of each month, at 7 a.m.
+0 7 1-7 * 1 /path/to/script.sh
+
+Run the a script at 9:15pm, on the 1st and 15th of every month:
+15 9 1,15 * * /path/to/script.sh
+
+Set custom HOME, PATH, SHELL and MAILTO variables and run a command every minute.
+HOME=/opt
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+SHELL=/usr/bin/zsh
+MAILTO=email@example.com
+
+*/1 * * * * command

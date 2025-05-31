@@ -16,7 +16,8 @@ This course is designed to help DevOps professionals master **Shell Scripting** 
 ✔️ **Functions**  
 ✔️ **Scheduling**  
 ✔️ **Cron Jobs**  
-🔁25 Realtime Shell Scripts for DevOps Engineers
+✔️ **25 real-time shell scripts for DevOps Engineers**
+
 ---
 
 ## 🎥 Watch the Lectures  

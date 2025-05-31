@@ -31,7 +31,7 @@ Click on any lecture below to watch the video on **YouTube** 🎬
 
 [![Lecture 4](https://img.shields.io/badge/-Lecture%204-red?style=for-the-badge&logo=youtube)](https://youtu.be/BjJ2YHNzN8o)  Conditional Statements, Arguments, Functions 
 
-[![Lecture 5](https://img.shields.io/badge/-Lecture%205-red?style=for-the-badge&logo=youtube)](https://youtu.be/vL9P4zPTqUE))  Scheduling, CRON Jobs
+[![Lecture 5](https://img.shields.io/badge/-Lecture%205-red?style=for-the-badge&logo=youtube)](https://youtu.be/vL9P4zPTqUE)  Scheduling, CRON Jobs
 
 [![Lecture 6](https://img.shields.io/badge/-Lecture%205-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_5)  25 Real-time Scenarios
 

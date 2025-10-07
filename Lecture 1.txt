@@ -105,6 +105,7 @@ Write a shell script that:
 	Asks the user for their favorite place.
 	Displays a message like: "Hello [Name], your favorite place is [Place]!"
 
+This is the last day for Git and GitHub - Demo Session
 
 
 

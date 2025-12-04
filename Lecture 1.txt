@@ -2,6 +2,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 													LECTURE 01
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+KASTRO's Lecture
 1. Linux Architecture
 2. Shell Processing
 
@@ -104,3 +105,4 @@ Write a shell script that:
 	Asks the user for their name.
 	Asks the user for their favorite place.
 	Displays a message like: "Hello [Name], your favorite place is [Place]!"
+

@@ -1,12 +1,15 @@
 name: Demo-1
+
 on:
   push:
+
 jobs:
   hello-world:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+    runs-on: ubuntu-latest
 
-    - name: Print a Message
-      run: echo "Hello from GHA"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Print a Message
+        run: echo "Hello from GHA"
